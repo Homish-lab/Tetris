@@ -1,0 +1,45 @@
+#tetris {
+ margin: 0 auto;
+ width: 480px; 
+ height: 600px; 
+ text-align: center;
+ clear: both;
+}
+#tetrisleft {
+ width: 300px;
+ min-width: 300px;
+ height: 600px; 
+ float: left; 
+ margin: 0px; 
+}
+#tetrisright {
+ width: 180px; 
+ min-width: 180px;
+ height: 600px; 
+ float: left; 
+ margin: 0px;
+}
+
+$colors : {
+  "pink"  : #E20071,
+  "blue"  : #00A3DA,
+  "gray"  : #939394,
+  "white" : #FFFFFF,
+  "black" : #1B1B1B,
+}
+
+#colors : {
+  "pink"  : #E20071,
+  "blue"  : #00A3DA,
+  "gray"  : #939394,
+  "white" : #FFFFFF,
+  "black" : #1B1B1B,
+}
+
+.clear {
+ clear: left; /* Отмена обтекания */
+}
+.info {
+ text-align: left;
+ margin-left: 24px;
+}
