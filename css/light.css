@@ -103,5 +103,9 @@ body
 	height: 600px;
 	color: #ffffff;
 	display: block;
-    border: 1px solid black;
+    border: 5px solid transparent;
+    -moz-border-image: -moz-linear-gradient(top left, #00a5df , #3e147b, #e20079,#df132c ,#f3ef15 ,#009847);
+    -webkit-border-image: -webkit-linear-gradient(top left, #00a5df , #3e147b, #e20079,#df132c ,#f3ef15 ,#009847);
+    border-image: linear-gradient(to bottom right, #00a5df , #3e147b, #e20079,#df132c ,#f3ef15 ,#009847);
+    border-image-slice: 1;
 }
